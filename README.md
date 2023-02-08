@@ -1,7 +1,13 @@
-Run
+Find Word
 
 ```shell
-node index <./PATH-TO-JSON-FILE-OF-WORDS-AS-ARRAY.json> <LETTERS> <WORD-LENGTH>
+node word-finder <./PATH-TO-JSON-FILE-OF-WORDS-AS-ARRAY.json> <LETTERS> <WORD-LENGTH>
+```
+
+Scanword
+
+```shell
+node scanword <./PATH-TO-JSON-FILE-OF-WORDS-AS-ARRAY.json> <WORD-WITH-DOT>
 ```
 
 ---
