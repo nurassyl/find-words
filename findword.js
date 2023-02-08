@@ -22,6 +22,7 @@ process.argv.forEach(function (val, index, array) {
 wordLength = Number(wordLength);
 letters = letters.replaceAll(',', '');
 letters = letters.replaceAll(' ', '');
+letters = letters.toLowerCase();
 letters = letters.split('');
 
 // validate parameters.

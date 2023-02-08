@@ -14,6 +14,9 @@ process.argv.forEach(function (val, index, array) {
   }
 });
 
+// normalize parameters.
+word = word.toLowerCase();
+
 // include words list.
 let wordsList = require(wordsSource);
 
