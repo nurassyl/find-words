@@ -1,7 +1,7 @@
-Find Word
+Findword
 
 ```shell
-node word-finder <./PATH-TO-JSON-FILE-OF-WORDS-AS-ARRAY.json> <LETTERS> <WORD-LENGTH>
+node findword <./PATH-TO-JSON-FILE-OF-WORDS-AS-ARRAY.json> <LETTERS> <WORD-LENGTH>
 ```
 
 Scanword
